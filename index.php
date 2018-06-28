@@ -8,6 +8,8 @@ $person = [
 
 $person['name'] = 'Thando';
 
+ unset($person['name']);
+
 echo '<pre>';
     var_dump($person);
 echo '</pre>';
