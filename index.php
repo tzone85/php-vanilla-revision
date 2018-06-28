@@ -1,17 +1,14 @@
 <?php
 
-$person = [
-    'age' => 33,
-    'hair' => 'black',
-    'career' => 'web developer'
+$tasks = [
+    'title' => 'whatToDo',
+    'due' => 'today',
+    'assigned_to' => 'Mncedi',
+    'completed' => false
 ];
 
-$person['name'] = 'Thando';
+// echo '<pre>';
+     var_dump($tasks);
+// echo '</pre>';
 
- unset($person['name']);
-
-echo '<pre>';
-    var_dump($person);
-echo '</pre>';
-
-// require 'index.view.php';
+ require 'index.view.php';
