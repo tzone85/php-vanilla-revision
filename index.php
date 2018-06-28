@@ -1,13 +1,15 @@
 <?php
 
-$names = [
-
-    'thando',
-    'mncedi',
-    'thando'
+$person = [
+    'age' => 33,
+    'hair' => 'black',
+    'career' => 'web developer'
 ];
 
-foreach($names as $name){
-    echo $name.', ';
-}
-require 'index.view.php';
+$person['name'] = 'Thando';
+
+echo '<pre>';
+    var_dump($person);
+echo '</pre>';
+
+// require 'index.view.php';
