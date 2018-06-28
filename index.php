@@ -1,5 +1,13 @@
 <?php
 
-$greeting = 'Hello, world';
+$names = [
 
+    'thando',
+    'mncedi',
+    'thando'
+];
+
+foreach($names as $name){
+    echo $name.', ';
+}
 require 'index.view.php';

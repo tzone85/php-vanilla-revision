@@ -16,15 +16,23 @@
 </head>
 <body>
 
-<h1>
+        <ul>
 
-<h1>
 
-    <header>
-        <?= $greeting; ?>
-    </header>
-</h1>
-</h1>
+        <?php foreach($names as $name) : ?>
+                    <li><?= $name; ?></li>
+        <?php endforeach; ?>
+
+
+
+
+
+            <?php
+                // foreach($names as $name){
+                //     echo "<li>$name</li>";
+                // }
+            ?>
+        </ul>
 
 </h1>
 </body>
