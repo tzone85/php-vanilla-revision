@@ -31,10 +31,20 @@
                 <strong>Assigned To: </strong> <?= $tasks['assigned_to'] ?>
             </li>
 
+<!--            <li>-->
+<!--                <strong>Status: </strong> --><?//= $tasks['completed'] ? 'Complete' : 'Incomplete'; ?>
+<!--            </li>-->
+
+
             <li>
-                <strong>Status: </strong> <?= $tasks['completed'] ? 'Complete' : 'Incomplete'; ?>
+                <strong>Status:</strong>
+
+                <?php if($tasks['completed']) :  ?>
+                    <span class="icon">#9989;</span>
+                <?php else : ?>
+                    <span class="icon">Incomplete;</span>
+                <?php endif ?>
             </li>
-            
         </ul>
 
 </h1>

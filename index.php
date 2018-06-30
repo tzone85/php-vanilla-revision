@@ -4,7 +4,7 @@ $tasks = [
     'title' => 'whatToDo',
     'due' => 'today',
     'assigned_to' => 'Mncedi',
-    'completed' => false
+    'completed' => true
 ];
 
 // echo '<pre>';
